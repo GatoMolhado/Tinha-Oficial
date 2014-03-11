@@ -1,5 +1,5 @@
 ﻿CACHE MANIFEST
-#1394223117
+#1394566476
 index.html
 c2runtime.js
 jquery-2.0.0.min.js
@@ -13,6 +13,10 @@ images\passaro-sheet1.png
 images\grilo-sheet0.png
 images\grilo-sheet1.png
 images\camera-sheet0.png
+images\sprite-sheet0.png
+images\sprite-sheet1.png
+images\sprite2-sheet0.png
+images\sprite2-sheet1.png
 media\fail2.m4a
 media\fail2.ogg
 icon-16.png
