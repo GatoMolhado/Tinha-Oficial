@@ -1,5 +1,5 @@
 ﻿CACHE MANIFEST
-#1395766512
+#1395775203
 index.html
 c2runtime.js
 jquery-2.0.0.min.js
@@ -25,6 +25,7 @@ images\sobregrupo.png
 images\instalacao.png
 images\voltartile.png
 images\instalacaomaca.png
+images\tiledbackground3.png
 media\fail2.m4a
 media\fail2.ogg
 media\thunder1.m4a

@@ -22209,6 +22209,40 @@ cr.getProjectModel = function() { return [
 		[],
 		null
 	]
+,	[
+		"t38",
+		cr.plugins_.TiledBg,
+		false,
+		[],
+		0,
+		0,
+		["images/tiledbackground3.png", 3276, 0],
+		null,
+		[
+		],
+		false,
+		false,
+		2910827065199391,
+		[],
+		null
+	]
+,	[
+		"t39",
+		cr.plugins_.Button,
+		false,
+		[],
+		0,
+		0,
+		null,
+		null,
+		[
+		],
+		false,
+		false,
+		7407426735959201,
+		[],
+		null
+	]
 	],
 	[
 	],
@@ -22453,6 +22487,38 @@ cr.getProjectModel = function() { return [
 					0,
 					0,
 					0,
+					0
+				]
+			]
+,			[
+				[0, 0, 0, 64, 64, 0, 0, 1, 0, 0, 0, 0, []],
+				38,
+				39,
+				[
+				],
+				[
+				],
+				[
+					0,
+					0
+				]
+			]
+,			[
+				[0, 0, 0, 64, 64, 0, 0, 1, 0, 0, 0, 0, []],
+				39,
+				40,
+				[
+				],
+				[
+				],
+				[
+					0,
+					"OK",
+					"",
+					0,
+					1,
+					1,
+					"",
 					0
 				]
 			]
@@ -23197,8 +23263,8 @@ cr.getProjectModel = function() { return [
 			1152190998175865,
 			[
 			[
-				5,
-				cr.plugins_.Mouse.prototype.cnds.OnObjectClicked,
+				20,
+				cr.plugins_.Touch.prototype.cnds.OnTouchObject,
 				null,
 				1,
 				false,
@@ -23208,14 +23274,6 @@ cr.getProjectModel = function() { return [
 				false
 				,[
 				[
-					3,
-					0
-				]
-,				[
-					3,
-					0
-				]
-,				[
 					4,
 					2
 				]
@@ -23249,8 +23307,8 @@ cr.getProjectModel = function() { return [
 			6538180687723605,
 			[
 			[
-				5,
-				cr.plugins_.Mouse.prototype.cnds.OnObjectClicked,
+				20,
+				cr.plugins_.Touch.prototype.cnds.OnTouchObject,
 				null,
 				1,
 				false,
@@ -23260,14 +23318,6 @@ cr.getProjectModel = function() { return [
 				false
 				,[
 				[
-					3,
-					0
-				]
-,				[
-					3,
-					0
-				]
-,				[
 					4,
 					3
 				]
@@ -23338,11 +23388,107 @@ false,false,14584359734282,false
 				null,
 				false,
 				null,
-				1774166236172815,
+				2378543186328389,
 				[
 				[
 					8,
-					cr.plugins_.Keyboard.prototype.cnds.IsKeyDown,
+					cr.plugins_.Keyboard.prototype.cnds.OnKey,
+					null,
+					1,
+					false,
+					false,
+					false,
+					2713849875888398,
+					false
+					,[
+					[
+						9,
+						37
+					]
+					]
+				]
+				],
+				[
+				[
+					7,
+					cr.plugins_.Sprite.prototype.acts.SetAnim,
+					null,
+					5266026501377735,
+					false
+					,[
+					[
+						1,
+						[
+							2,
+							"left"
+						]
+					]
+,					[
+						3,
+						1
+					]
+					]
+				]
+				]
+			]
+,			[
+				0,
+				null,
+				false,
+				null,
+				624590411411701,
+				[
+				[
+					8,
+					cr.plugins_.Keyboard.prototype.cnds.OnKey,
+					null,
+					1,
+					false,
+					false,
+					false,
+					3017943015551384,
+					false
+					,[
+					[
+						9,
+						39
+					]
+					]
+				]
+				],
+				[
+				[
+					7,
+					cr.plugins_.Sprite.prototype.acts.SetAnim,
+					null,
+					3561440741429503,
+					false
+					,[
+					[
+						1,
+						[
+							2,
+							"right"
+						]
+					]
+,					[
+						3,
+						1
+					]
+					]
+				]
+				]
+			]
+,			[
+				0,
+				null,
+				false,
+				null,
+				1774166236172815,
+				[
+				[
+					20,
+					cr.plugins_.Touch.prototype.cnds.IsTouchingObject,
 					null,
 					0,
 					false,
@@ -23352,8 +23498,8 @@ false,false,14584359734282,false
 					false
 					,[
 					[
-						9,
-						37
+						4,
+						21
 					]
 					]
 				]
@@ -23379,6 +23525,19 @@ false,false,14584359734282,false
 					]
 					]
 				]
+,				[
+					7,
+					cr.behaviors.EightDir.prototype.acts.SimulateControl,
+					"8Direction",
+					762300682454661,
+					false
+					,[
+					[
+						3,
+						0
+					]
+					]
+				]
 				]
 			]
 ,			[
@@ -23389,8 +23548,8 @@ false,false,14584359734282,false
 				8080273685607414,
 				[
 				[
-					8,
-					cr.plugins_.Keyboard.prototype.cnds.IsKeyDown,
+					20,
+					cr.plugins_.Touch.prototype.cnds.IsTouchingObject,
 					null,
 					0,
 					false,
@@ -23400,8 +23559,8 @@ false,false,14584359734282,false
 					false
 					,[
 					[
-						9,
-						39
+						4,
+						22
 					]
 					]
 				]
@@ -23427,6 +23586,19 @@ false,false,14584359734282,false
 					]
 					]
 				]
+,				[
+					7,
+					cr.behaviors.EightDir.prototype.acts.SimulateControl,
+					"8Direction",
+					9274447027252799,
+					false
+					,[
+					[
+						3,
+						1
+					]
+					]
+				]
 				]
 			]
 ,			[
@@ -23437,8 +23609,8 @@ false,false,14584359734282,false
 				3876059054312834,
 				[
 				[
-					8,
-					cr.plugins_.Keyboard.prototype.cnds.OnAnyKeyReleased,
+					20,
+					cr.plugins_.Touch.prototype.cnds.OnTouchEnd,
 					null,
 					1,
 					false,
@@ -23476,22 +23648,22 @@ false,false,14584359734282,false
 				null,
 				false,
 				null,
-				3101715682948616,
+				6504277639072677,
 				[
 				[
-					8,
-					cr.plugins_.Keyboard.prototype.cnds.OnKey,
+					20,
+					cr.plugins_.Touch.prototype.cnds.IsTouchingObject,
 					null,
-					1,
+					0,
 					false,
 					false,
 					false,
-					6035586721528569,
+					2298238242118715,
 					false
 					,[
 					[
-						9,
-						32
+						4,
+						39
 					]
 					]
 				]
@@ -23499,16 +23671,32 @@ false,false,14584359734282,false
 				[
 				[
 					-1,
+					cr.system_object.prototype.acts.GoToLayoutByName,
+					null,
+					9071443882236091,
+					false
+					,[
+					[
+						1,
+						[
+							2,
+							"Menu"
+						]
+					]
+					]
+				]
+,				[
+					-1,
 					cr.system_object.prototype.acts.RestartLayout,
 					null,
-					5953643079125773,
+					1390517554444992,
 					false
 				]
 ,				[
 					-1,
 					cr.system_object.prototype.acts.SetVar,
 					null,
-					8038707905676021,
+					5671677373868611,
 					false
 					,[
 					[
@@ -23528,7 +23716,7 @@ false,false,14584359734282,false
 					-1,
 					cr.system_object.prototype.acts.SetGroupActive,
 					null,
-					8972091612579897,
+					6070985604418525,
 					false
 					,[
 					[
@@ -23543,6 +23731,13 @@ false,false,14584359734282,false
 						1
 					]
 					]
+				]
+,				[
+					11,
+					cr.plugins_.Audio.prototype.acts.StopAll,
+					null,
+					6631653941874676,
+					false
 				]
 				]
 			]
@@ -24893,6 +25088,33 @@ false,false,14584359734282,false
 				]
 				],
 				[
+				[
+					7,
+					cr.plugins_.Sprite.prototype.acts.Destroy,
+					null,
+					1835120826118364,
+					false
+				]
+,				[
+					-1,
+					cr.system_object.prototype.acts.SetGroupActive,
+					null,
+					8085127986274827,
+					false
+					,[
+					[
+						1,
+						[
+							2,
+							"Score"
+						]
+					]
+,					[
+						3,
+						0
+					]
+					]
+				]
 				]
 			]
 ,			[
@@ -26362,96 +26584,6 @@ false,false,14584359734282,false
 			],
 			[
 			]
-			,[
-			[
-				0,
-				null,
-				false,
-				null,
-				2749920351552606,
-				[
-				[
-					8,
-					cr.plugins_.Keyboard.prototype.cnds.OnKey,
-					null,
-					1,
-					false,
-					false,
-					false,
-					1638544503745878,
-					false
-					,[
-					[
-						9,
-						80
-					]
-					]
-				]
-				],
-				[
-				[
-					-1,
-					cr.system_object.prototype.acts.SetTimescale,
-					null,
-					2490014014649184,
-					false
-					,[
-					[
-						0,
-						[
-							0,
-							0
-						]
-					]
-					]
-				]
-				]
-			]
-,			[
-				0,
-				null,
-				false,
-				null,
-				5148570039988961,
-				[
-				[
-					8,
-					cr.plugins_.Keyboard.prototype.cnds.OnKey,
-					null,
-					1,
-					false,
-					false,
-					false,
-					7035276450827391,
-					false
-					,[
-					[
-						9,
-						79
-					]
-					]
-				]
-				],
-				[
-				[
-					-1,
-					cr.system_object.prototype.acts.SetTimescale,
-					null,
-					2143335688233841,
-					false
-					,[
-					[
-						0,
-						[
-							1,
-							1
-						]
-					]
-					]
-				]
-				]
-			]
-			]
 		]
 		]
 	]
@@ -26466,8 +26598,8 @@ false,false,14584359734282,false
 			5101464869732299,
 			[
 			[
-				5,
-				cr.plugins_.Mouse.prototype.cnds.OnObjectClicked,
+				20,
+				cr.plugins_.Touch.prototype.cnds.OnTouchObject,
 				null,
 				1,
 				false,
@@ -26477,14 +26609,6 @@ false,false,14584359734282,false
 				false
 				,[
 				[
-					3,
-					0
-				]
-,				[
-					3,
-					0
-				]
-,				[
 					4,
 					26
 				]
@@ -26515,8 +26639,8 @@ false,false,14584359734282,false
 			4341527819488492,
 			[
 			[
-				5,
-				cr.plugins_.Mouse.prototype.cnds.OnObjectClicked,
+				20,
+				cr.plugins_.Touch.prototype.cnds.OnTouchObject,
 				null,
 				1,
 				false,
@@ -26526,14 +26650,6 @@ false,false,14584359734282,false
 				false
 				,[
 				[
-					3,
-					0
-				]
-,				[
-					3,
-					0
-				]
-,				[
 					4,
 					25
 				]
@@ -26598,8 +26714,8 @@ false,false,14584359734282,false
 				4520387725063848,
 				[
 				[
-					5,
-					cr.plugins_.Mouse.prototype.cnds.OnObjectClicked,
+					20,
+					cr.plugins_.Touch.prototype.cnds.OnTouchObject,
 					null,
 					1,
 					false,
@@ -26609,14 +26725,6 @@ false,false,14584359734282,false
 					false
 					,[
 					[
-						3,
-						0
-					]
-,					[
-						3,
-						0
-					]
-,					[
 						4,
 						28
 					]
@@ -26782,8 +26890,8 @@ false,false,14584359734282,false
 				4263178290736187,
 				[
 				[
-					5,
-					cr.plugins_.Mouse.prototype.cnds.OnObjectClicked,
+					20,
+					cr.plugins_.Touch.prototype.cnds.OnTouchObject,
 					null,
 					1,
 					false,
@@ -26793,14 +26901,6 @@ false,false,14584359734282,false
 					false
 					,[
 					[
-						3,
-						0
-					]
-,					[
-						3,
-						0
-					]
-,					[
 						4,
 						24
 					]
@@ -26879,8 +26979,8 @@ false,false,14584359734282,false
 			378553320184377,
 			[
 			[
-				5,
-				cr.plugins_.Mouse.prototype.cnds.OnObjectClicked,
+				20,
+				cr.plugins_.Touch.prototype.cnds.OnTouchObject,
 				null,
 				1,
 				false,
@@ -26890,14 +26990,6 @@ false,false,14584359734282,false
 				false
 				,[
 				[
-					3,
-					0
-				]
-,				[
-					3,
-					0
-				]
-,				[
 					4,
 					33
 				]
@@ -26962,8 +27054,8 @@ false,false,14584359734282,false
 				9756810096199287,
 				[
 				[
-					5,
-					cr.plugins_.Mouse.prototype.cnds.OnObjectClicked,
+					20,
+					cr.plugins_.Touch.prototype.cnds.OnTouchObject,
 					null,
 					1,
 					false,
@@ -26973,14 +27065,6 @@ false,false,14584359734282,false
 					false
 					,[
 					[
-						3,
-						0
-					]
-,					[
-						3,
-						0
-					]
-,					[
 						4,
 						31
 					]
@@ -27058,8 +27142,8 @@ false,false,14584359734282,false
 				3799287707779895,
 				[
 				[
-					5,
-					cr.plugins_.Mouse.prototype.cnds.OnObjectClicked,
+					20,
+					cr.plugins_.Touch.prototype.cnds.OnTouchObject,
 					null,
 					1,
 					false,
@@ -27069,14 +27153,6 @@ false,false,14584359734282,false
 					false
 					,[
 					[
-						3,
-						0
-					]
-,					[
-						3,
-						0
-					]
-,					[
 						4,
 						37
 					]
@@ -27227,12 +27303,12 @@ false,false,14584359734282,false
 	true,
 	true,
 	true,
-	"1.0.0.0",
+	"1.8.3",
 	true,
 	false,
 	0,
 	0,
-	39,
+	41,
 	false,
 	true,
 	[
